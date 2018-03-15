@@ -31,7 +31,15 @@ if salary.isdigit() :
                     shopping_list.append(p_item)
                     salary -=p_item[1]
                     print("added %s into shopping cart ,your current balance is %s" %(p_item,salary))
+                else:
+                    print("\033[41;1m你的余额只剩[%s]\033[0m" %salary)
+            else:
+                print("product code [%s] is not exist!" %user_choice)
         elif user_choice =='q':
-            print('exit......')
+            print('------shoping list------')
+            for p in shopping_list:
+                print(p)
+            print("your current balance:",salary)
+            exit()
         else:
             print("invalid option")
