@@ -10,4 +10,5 @@ f = open("file.txt",'r',encoding="utf-8")#文件句柄
 #print(data)
 #f.write("我爱毕竟天安门")
 
+
 print(f.readline())
