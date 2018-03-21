@@ -1,2 +1,0 @@
-# pylearn
-learn python
