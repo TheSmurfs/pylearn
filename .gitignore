@@ -1,3 +1,10 @@
+# IDE
 .idea/
 
-test1/.idea/
+# Python 虚拟环境
+venv/
+.venv/
+
+# Python 编译缓存
+__pycache__/
+*.py[cod]
